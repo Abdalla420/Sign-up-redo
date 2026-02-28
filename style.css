@@ -9,6 +9,9 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
+:root {
+    --whole-height: 100vh;
+}
 html, body {
     height: 100%;
 
@@ -18,10 +21,18 @@ html, body {
 
     box-sizing: border-box;
 }   
+.whole-container {
+    display: flex;
+}
 .left-container {
     background-color: gray;
-    
+    min-height: var(--whole-height);
+    flex: 1;
+    flex-grow: 3;
 }
 .right-container {
     background-color: lightskyblue;
+    min-height: var(--whole-height);
+    flex: 1;
+    flex-grow: 5;
 }
