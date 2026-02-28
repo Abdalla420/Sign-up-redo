@@ -11,9 +11,10 @@
 }
 :root {
     --whole-height: 100vh;
+    --hundred-per: 100%;
 }
 html, body {
-    height: 100%;
+    height: var(--hundred-per);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,10 +25,21 @@ html, body {
 .left-container {
     background-image: url(./background.jpg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     min-height: var(--whole-height);
     flex: 1;
     flex-grow: 3;
+    display: flex;
+    position: relative;
+}
+.logo-container {
+    background-color: rgba(0, 0, 0, 0.418);
+    position: absolute;
+    top: 7rem;
+    margin: 0;
+    padding-top: 6rem;
+    width: var(--hundred-per);
     display: flex;
 }
 .right-container {
