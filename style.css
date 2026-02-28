@@ -14,21 +14,21 @@
 }
 html, body {
     height: 100%;
-
     margin: 0;
-
     padding: 0;
-
     box-sizing: border-box;
 }   
 .whole-container {
     display: flex;
 }
 .left-container {
-    background-color: gray;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     min-height: var(--whole-height);
     flex: 1;
     flex-grow: 3;
+    display: flex;
 }
 .right-container {
     background-color: lightskyblue;
