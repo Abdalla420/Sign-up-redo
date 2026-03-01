@@ -92,7 +92,7 @@ html, body {
     background-color: white;
     display: flex;
     flex-direction: column;
-    height: 30%;
+    height: 31%;
     position: relative;
     box-shadow: 0px 5px 9px 2px rgb(215, 214, 214);
 
@@ -135,4 +135,11 @@ input {
     border: 1px solid lightgrey;
     border-radius: 4px;
     padding: 5.5px;
+}
+input:invalid {
+    border-color: red;
+}
+input:focus {
+    border-color: blue;
+    box-shadow: 0px 1px 8px 1px grey;
 }
