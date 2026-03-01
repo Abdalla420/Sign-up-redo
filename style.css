@@ -125,5 +125,14 @@ html, body {
     flex-direction: column;
     min-width: 300px;
 }
-[input] {
+label {
+    font-family: var(--font-default);
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+input {
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    padding: 5.5px;
 }
