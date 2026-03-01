@@ -93,24 +93,37 @@ html, body {
     display: flex;
     flex-direction: column;
     height: 30%;
+    position: relative;
+    box-shadow: 0px 5px 9px 2px rgb(215, 214, 214);
+
 }
 .form-title {
+    padding: 0;
+    margin: 0;
+    max-width: 200px;
     font-size: 1.5rem;    
     font-weight: 600;
     font-family: var(--font-default);
     position: relative;
     left: var(--left-space);
+    top: 20px;
 }
 .form{
-    position: relative;
+    position: ab;
     left: var(--left-space);
+    top: 80px;
+    position: absolute;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
-    flex-basis: 100%;
+    max-width: 700px;
     gap: 20px;
 }
 .form-group {
     display: flex;
     flex-direction: column;
-    flex: 1 1 45%;
+    min-width: 300px;
+}
+[input] {
 }
