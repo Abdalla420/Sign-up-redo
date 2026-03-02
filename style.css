@@ -74,11 +74,12 @@ p {
 }
 .right-container {
     background-color: #F9FAFB;
-    min-height: var(--whole-height);
+    height: var(--whole-height);
     flex: 1;
     flex-grow: 5;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .paragraph {
     font-size: 1.5rem;
