@@ -20,7 +20,10 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}   
+} 
+p {
+    font-family: var(--font-default);
+}  
 .whole-container {
     display: flex;
 }
@@ -86,7 +89,6 @@ html, body {
     position: relative;
     left: var(--left-space);
     max-width: 43rem;
-    font-family: var(--font-default);
 }
 .form-container {
     background-color: white;
@@ -103,7 +105,6 @@ html, body {
     max-width: 200px;
     font-size: 1.5rem;    
     font-weight: 600;
-    font-family: var(--font-default);
     position: relative;
     left: var(--left-space);
     top: 20px;
@@ -142,4 +143,16 @@ input:invalid {
 input:focus {
     border-color: blue;
     box-shadow: 0px 1px 8px 1px grey;
+}
+button[type="submit"]{
+    position: relative;
+    left: var(--left-space);
+    padding: 1rem;
+    max-width: 250px;
+    background-color: #596D48;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
 }
