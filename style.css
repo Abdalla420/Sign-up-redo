@@ -33,8 +33,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     min-height: var(--whole-height);
-    flex: 1;
-    flex-grow: 3;
+    width: 38%;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -76,7 +75,6 @@ p {
     background-color: #F9FAFB;
     height: var(--whole-height);
     flex: 1;
-    flex-grow: 5;
     display: flex;
     flex-direction: column;
     justify-content: center;
